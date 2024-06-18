@@ -1,0 +1,172 @@
+[
+    {
+        "jobTitle": "Financial Analyst",
+        "validTill": "2078/07/05",
+        "level": "Mid-Level",
+        "requireNo": "2",
+        "JobDescription": [
+            "Conduct financial analysis, forecasting, and budgeting for various projects.",
+            "Prepare detailed reports and presentations on financial performance.",
+            "Collaborate with other departments to gather financial data and insights."
+        ],
+        "Qualification_Experience": [
+            "Bachelor's Degree in Finance or Accounting from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Professional qualification as CA/ACCA/CFA is preferred.",
+            "Age not below 21 and not exceeding 35 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Competitive salary and benefits as per company's policy"]
+    },
+    {
+        "jobTitle": "Investment Manager",
+        "validTill": "2078/07/05",
+        "level": "Senior Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Develop and implement investment strategies for the firm's clients.",
+            "Manage a portfolio of investments and conduct regular performance reviews.",
+            "Stay updated on market trends and economic conditions."
+        ],
+        "Qualification_Experience": [
+            "Master's Degree in Business Administration or Finance from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 3 years of experience in investment management.",
+            "Age not below 25 and not exceeding 45 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Salary based on experience and qualifications, plus performance bonuses"]
+    },
+    {
+        "jobTitle": "Risk Analyst",
+        "validTill": "2078/07/05",
+        "level": "Mid-Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Analyze potential risks and develop strategies to mitigate them.",
+            "Prepare risk assessment reports for Senior Level management.",
+            "Monitor and report on risk-related issues."
+        ],
+        "Qualification_Experience": [
+            "Bachelor's Degree in Risk Management or Finance from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Professional certification in risk management is an advantage.",
+            "Age not below 21 and not exceeding 35 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Attractive salary package with health insurance and other benefits"]
+    },
+    {
+        "jobTitle": "Marketing Specialist",
+        "validTill": "2078/07/05",
+        "level": "Mid-Level",
+        "requireNo": "3",
+        "JobDescription": [
+            "Develop and execute marketing strategies to promote company products.",
+            "Conduct market research to identify new opportunities.",
+            "Collaborate with the sales team to boost brand awareness."
+        ],
+        "Qualification_Experience": [
+            "Bachelor's Degree in Marketing or Business Administration from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 2 years of experience in marketing.",
+            "Age not below 21 and not exceeding 35 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Competitive salary, performance bonuses, and other perks"]
+    },
+    {
+        "jobTitle": "IT Manager",
+        "validTill": "2078/07/05",
+        "level": "Senior Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Oversee the IT department and ensure the smooth functioning of all IT systems.",
+            "Develop and implement IT policies and best practices.",
+            "Manage IT projects and ensure timely completion."
+        ],
+        "Qualification_Experience": [
+            "Master's Degree in Information Technology or Computer Science from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 5 years of experience in IT management.",
+            "Age not below 25 and not exceeding 45 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Salary as per industry standards, with additional benefits and allowances"]
+    },
+    {
+        "jobTitle": "Human Resources Manager",
+        "validTill": "2078/07/05",
+        "level": "Senior Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Oversee recruitment, training, and development of employees.",
+            "Develop and implement HR policies and procedures.",
+            "Manage employee relations and ensure compliance with labor laws."
+        ],
+        "Qualification_Experience": [
+            "Master's Degree in Human Resource Management or Business Administration from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 4 years of experience in HR management.",
+            "Age not below 25 and not exceeding 45 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Attractive salary package with benefits including health insurance"]
+    },
+    {
+        "jobTitle": "Software Developer",
+        "validTill": "2078/07/05",
+        "level": "Junior",
+        "requireNo": "5",
+        "JobDescription": [
+            "Develop and maintain software applications according to project requirements.",
+            "Collaborate with the development team to design and implement new features.",
+            "Debug and resolve technical issues in existing software."
+        ],
+        "Qualification_Experience": [
+            "Bachelor's Degree in Computer Science or Software Engineering from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Experience with programming languages such as Java, Python, or C#.",
+            "Age not below 21 and not exceeding 35 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Competitive salary, professional development opportunities, and other benefits"]
+    },
+    {
+        "jobTitle": "Operations Manager",
+        "validTill": "2078/07/05",
+        "level": "Senior Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Oversee daily operations and ensure efficient functioning of all departments.",
+            "Develop operational policies and procedures.",
+            "Monitor and improve operational performance."
+        ],
+        "Qualification_Experience": [
+            "Master's Degree in Operations Management or Business Administration from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 5 years of experience in operations management.",
+            "Age not below 25 and not exceeding 45 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Salary as per company's policy, with additional benefits and allowances"]
+    },
+    {
+        "jobTitle": "Graphic Designer",
+        "validTill": "2078/07/05",
+        "level": "Mid-Level",
+        "requireNo": "2",
+        "JobDescription": [
+            "Create visual concepts to communicate ideas that inspire, inform, and captivate consumers.",
+            "Develop graphics for product illustrations, logos, and websites.",
+            "Collaborate with the marketing team to create visually appealing materials."
+        ],
+        "Qualification_Experience": [
+            "Bachelor's Degree in Graphic Design or related field from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Proficiency in graphic design software such as Adobe Creative Suite.",
+            "Age not below 21 and not exceeding 35 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Attractive salary package, creative work environment, and other perks"]
+    },
+    {
+        "jobTitle": "Customer Relationship Manager",
+        "validTill": "2078/07/05",
+        "level": "Senior Level",
+        "requireNo": "1",
+        "JobDescription": [
+            "Build and maintain strong relationships with key clients.",
+            "Ensure client satisfaction and address any issues promptly.",
+            "Develop strategies to improve customer service and client relationships."
+        ],
+        "Qualification_Experience": [
+            "Master's Degree in Business Administration or Marketing from a recognized University with at least second division or CGPA 3.0 out of 4.",
+            "Minimum of 3 years of experience in customer relationship management.",
+            "Age not below 25 and not exceeding 45 years as of January 19, 2022."
+        ],
+        "Salaries_Benefits": ["Competitive salary with performance-based incentives and benefits"]
+    }
+]

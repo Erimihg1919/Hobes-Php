@@ -13,7 +13,6 @@
     ?>
     <h1>404 Not Found</h1>
     <p>The page you are looking for does not exist.</p>
-    <a href="/php-routing-demo/">Go to Home Page</a>
-    <script src="/php-routing-demo/js/scripts.js"></script>
+    <a href="/Hobes-Php//">Go to Home Page</a>
 </body>
 </html>

@@ -5,7 +5,7 @@ $router = new Router();
 
 // Define routes
 
-// for pc
+// for pc   
 // /*
 $router->add('/Hobes-Php/', 'views/home.php');
 $router->add('/Hobes-Php/home', 'views/home.php');
@@ -13,7 +13,9 @@ $router->add('/Hobes-Php/about', 'views/about.php');
 $router->add('/Hobes-Php/contact', 'views/contact.php');
 $router->add('/Hobes-Php/career', 'views/career.php');
 $router->add('/Hobes-Php/jobs', 'views/career HTMLS/jobs.php');
+$router->add('/Hobes-Php/jobs/description', 'views/career HTMLS/jobinside.php');
 $router->add('/Hobes-Php/products', 'views/products.php');
+
 
 // */
 

@@ -1,7 +1,10 @@
 // just for forwarding of viewdetail
 	document.querySelectorAll('.jobcardright button').forEach(e=>{
-		e.addEventListener('click',()=>{window.location.href = './jobinside.html'})
-	})
+		e.addEventListener('click',()=>{window.location.href = './jobs/description?'+ e.attributes.datakey.textContent})
+		// e.addEventListener('click',()=>{
+		// 	console.log(e.attributes.datakey.textContent)
+		// })
+	})	
 
 
 
