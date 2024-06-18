@@ -68,7 +68,7 @@
                 management, streamlining tasks such as content updates, customer
                 interactions, and performance analytics. </p>
             <div class="viewjobs">
-                <button onclick="location.href = './career HTMLS/jobs.html'">View Job Openings</button>
+                <button onclick="location.href = 'jobs'">View Job Openings</button>
                 <span><img src="./assets/images/arrowright.svg" alt=""></span>
             </div>
         </div>

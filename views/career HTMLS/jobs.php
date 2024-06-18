@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job openings</title>
-    <link rel="icon" href=".././assets/images/hobes_tech_logo.jpeg" type="image/icon type">
-    <link rel="stylesheet" href=".././style/main.css">
-    <link rel="stylesheet" href=".././style/header/header.css">
-    <link rel="stylesheet" href=".././style/career/jobs/jobs.css">
+    <link rel="icon" href="./assets/images/hobes_tech_logo.jpeg" type="image/icon type">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/header/header.css">
+    <link rel="stylesheet" href="./style/career/jobs/jobs.css">
 
 
 </head>
@@ -15,56 +15,56 @@
     <div class="navigator">
         <h1>Career</h1>
         <span>
-            <a href="../index.html">Home</a>
+            <a href="/">Home</a>
             <span>></span>
-            <a href="../career.html">Career</a>
+            <a href="career">Career</a>
         </span>
     </div>
     <header>
         <div class="logo" id="logofirst">
-            <img src=".././assets/images/hobes_tech_logo.jpeg" alt="">
+            <img src="./assets/images/hobes_tech_logo.jpeg" alt="">
         </div>
         <nav class="front">
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About Us</a></li>
-                <li><a href="../products.html">Products</a></li>
-                <li><a href="../career.html" style="text-decoration: underline;text-underline-offset: 8px;">Career</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="products">Products</a></li>
+                <li><a href="career" style="text-decoration: underline;text-underline-offset: 8px;">Career</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
-            <a id="hamburgermenu"><img src=".././assets/images/hamburger.svg" alt=""></a>
+            <a id="hamburgermenu"><img src="./assets/images/hamburger.svg" alt=""></a>
         </nav>
         <nav class="side">
             <div class="sidenav" id="sidenav">
                 <div id="closesidenav">
-                    <img src=".././assets/images/cross.svg" class="cross" alt="">
+                    <img src="./assets/images/cross.svg" class="cross" alt="">
                 </div>
                 <div class="sidenavlogo">
-                    <img src=".././assets/images/hobes_tech_logo.jpeg" alt="">
+                    <img src="./assets/images/hobes_tech_logo.jpeg" alt="">
                 </div>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../about.html">About Us</a></li>
-                    <li><a href="../products.html">Products</a></li>
-                    <li><a href="../career.html" style="text-decoration: underline;text-underline-offset: 8px;">Career</a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="products">Products</a></li>
+                    <li><a href="career" style="text-decoration: underline;text-underline-offset: 8px;">Career</a>
                     </li>
-                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
                 <div class="socials">
                     <ul>
                         <li><a href="https://www.facebook.com/hobestech" target="_blank"><img
-                                    src=".././assets/images/facebook.svg" alt=""></a></li>
+                                    src="./assets/images/facebook.svg" alt=""></a></li>
                         <li><a href="https://www.instagram.com/hobes.tech/" target="_blank"><img
-                                    src=".././assets/images/instagram.svg" alt=""></a></li>
+                                    src="./assets/images/instagram.svg" alt=""></a></li>
                         <li><a href="https://www.linkedin.com/company/hobes-tech/" target="_blank"><img
-                                    src=".././assets/images/linkdeln.svg" alt=""></a></li>
+                                    src="./assets/images/linkdeln.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="bluraftersidenav"></div>
     </header>
-    <script src="../script/header/header.js"></script>
+    <script src="script/header/header.js"></script>
 
    
     <div class="joblisting">
@@ -77,7 +77,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -91,7 +91,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -105,7 +105,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -119,7 +119,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -133,7 +133,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -147,7 +147,7 @@
                 <div class="jobcard">
                     <div class="jobcardleft">
                         <div class="orangerectangle">
-                            <img src=".././assets/images/orangerectangle.svg" alt="">
+                            <img src="./assets/images/orangerectangle.svg" alt="">
                         </div>
                         <div class="jobcardleftcontent">
                         <h3>Customer Support</h3>
@@ -184,12 +184,12 @@
                     </select>
                     <input type="file" name="uploadcv" id="uploadcv" hidden>
                     <label for="uploadcv">
-                        <img src=".././assets/career/Jobs/upload.svg" alt="">
+                        <img src="./assets/career/Jobs/upload.svg" alt="">
                         <span>Upload Your CV</span>
                     </label>
                     <input type="file" name="uploadcoverletter" id="uploadcoverletter" hidden>
                     <label for="uploadcoverletter">
-                        <img src=".././assets/career/Jobs/upload.svg" alt="">
+                        <img src="./assets/career/Jobs/upload.svg" alt="">
                         <span>Upload Cover Letter</span>
                     </label>
                     <span class="positionButton">
@@ -203,7 +203,7 @@
         </div>
     </div>
 
-    <script src=".././script/career/pageintation.js"></script>
-    <script src=".././script/career/form.js"></script>
+    <script src="./script/career/pageintation.js"></script>
+    <script src="./script/career/form.js"></script>
 </body>
 </html>
