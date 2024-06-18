@@ -1,0 +1,88 @@
+
+.whyuslanding{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    display:flex;
+    z-index: 2;
+}
+
+.whyuscontent{
+    width: 50%
+    /* display: ; */
+
+}
+.picture{
+    width: 70%;
+}
+.picture img{
+    width: 70%;
+    margin-left: 20%;
+}
+
+.whyuscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+.whyuscontent h1{
+    font-size: 54px;
+    font-weight: 800;
+    width: 60%;
+}
+
+.viewjobs{
+    display: flex;
+    align-items: center;
+}
+
+.viewjobs img:hover, .viewjobs button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+.viewjobs button{
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    background: linear-gradient(180deg, rgba(210, 99, 18, 0.90) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+    border: none;
+}
+
+
+/* mobile */
+@media screen and (max-width: 1044px){
+   .whyuscontent h1{
+        width: 100%;
+    }
+ 
+
+}
+
+/* iphones and all  */
+@media screen and (max-width: 500px){
+    .whyuslanding{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .whyuslanding .picture{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            margin-left: 0;
+            border-radius:0px 0px 100px 0px ;
+        }
+    }
+    
+    .whyuscontent{
+        width: 100%;
+    }
+
+
+
+}

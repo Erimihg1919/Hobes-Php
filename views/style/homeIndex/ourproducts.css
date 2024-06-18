@@ -1,0 +1,96 @@
+
+.ourproductsbackground{
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+    img{
+        width: 100vw;
+        height: 100vh;
+
+
+    }
+}
+
+.scrollcontainer{
+    position: relative;
+    margin:auto auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.scrollcontainerwrap{
+    position:absolute;
+    margin:auto auto;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+}
+.scrollcontainerwrap .left,.scrollcontainerwrap .right{
+    color: white;
+    position: absolute;
+    padding: 3px 10px;
+    background-color: rgba(175, 21, 21, 0.774);
+    /* border-radius: 50%; */
+    cursor: pointer;
+    z-index: 1;
+}
+.scrollcontainerwrap .left{
+    left: 0;
+}
+.scrollcontainerwrap .right{
+    right: 0;
+}
+
+.scrollcontainerwrap>span{
+    color: black;
+    margin: 20px;
+}
+
+
+.scrollcontainerwrap .cards{
+    display: flex;
+    font-size: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: auto;
+    align-items: center;
+    /* border-radius: 5%;  */
+
+}
+
+.scrollcontainerwrap .cards>span{
+    margin: 0px auto;
+}
+
+.scrollcontainerwrap .cards .card{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5%;  */
+    /* padding: 20px; */
+    
+    
+}
+.scrollcontainerwrap .cards .card:hover{
+    transform: scale(1.01);
+
+}
+
+.scrollcontainerwrap .cards .card span{
+    margin: 2px;
+    text-align: center;
+    padding: 2px;
+}
+.scrollcontainerwrap .cards img{
+    /* width: var(--cardWidthOurProducts);
+    height: var(--cardHeightOurProducts); */
+    object-fit: cover;
+    /* border-radius: 5%;  */
+    
+}
+

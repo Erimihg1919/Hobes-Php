@@ -1,0 +1,102 @@
+.aboutworkingherewrap{
+    margin-top: 150px;
+    max-width: 13500px;
+}
+
+.aboutworkingimage{
+    padding: 20px 20px 0px 0px;
+    width: 30%;
+    height: 400px;
+    /* height: 1000px; */
+    background: linear-gradient(180deg, rgba(210, 99, 18, 0.90) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+    img{
+        width: calc(100%);
+        height: calc(100%);
+    }
+}   
+
+.aboutworkingcontent{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 1000px;
+    /* border: 2px solid green; */
+    margin: 0px auto;
+    gap: 15px;
+}
+.facilitycards{
+    /* padding: 10px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.facilitycard{
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 7px;
+    gap: 15px;
+    width: 48%;
+    min-width: 300px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+
+}
+
+.facilitycard .cardcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    p{
+        color: gray;
+
+    }
+}
+.facilitycard .cardimg img{
+    width: 40px;
+    height: 40px;
+
+}
+
+/* responsive */
+
+@media screen and (max-width: 1560px){
+
+    .facilitycard{width: 45%;}
+
+}
+@media screen and (max-width: 1044px){
+
+    .facilitycard{width: 95%;}
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 1044px){
+
+    .facilitycards{
+        padding: 5%; justify-content: center;
+    }
+    .aboutworkingimage{
+        display: none;
+    }
+
+    .aboutworkingherewrap{
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+

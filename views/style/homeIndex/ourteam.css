@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+}
+
+.ourteambackground{
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+    img{
+        width: 100vw;
+        height: 100vh;
+
+
+    }
+}
+
+.ourteam{
+    position: relative;
+    margin:auto auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.ourteamwrap{
+    position:absolute;
+    margin:auto auto;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.ourteamcards::-webkit-scrollbar {
+    display: none;
+}
+.ourteamwrap .left,.ourteamwrap .right{
+    color: wheat;
+    position: absolute;
+    padding: 3px 10px;
+    background-color: red;
+    cursor: pointer;
+    z-index: 1;
+}
+.ourteamwrap .left{
+    left: 0;
+}
+.ourteamwrap .right{
+    right: 0;
+}
+
+.ourteamwrap>span{
+    color: black;
+    margin: 20px;
+}
+
+
+.ourteamwrap .ourteamcards{
+    display: flex;
+    font-size: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.ourteamwrap .ourteamcards>span{
+    margin: 0px auto;
+}
+
+.ourteamwrap .ourteamcards .ourteamcard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    /* border-radius: 5%;  */
+    /* padding: 20px; */
+}
+.ourteamwrap .ourteamcards .ourteamcard:hover{
+    transform: scale(1.01);
+
+}
+
+span[class="desctext"]{
+    font-size: 20px;
+
+}
+.ourteamwrap .ourteamcards .card span:nth-child(1){
+    margin: 2px;
+    text-align: center;
+    padding: 2px;
+}
+
+.ourteamwrap .ourteamcards img{
+    /* width: var(--cardWidthOurProducts);
+    height: var(--cardHeightOurProducts); */
+    object-fit: cover;
+    border-radius: 50%;
+
+    /* border-radius: 5%;  */
+    
+}
+
+/* responsive */
+
+@media screen and (min-width: 1301px){
+    :root {
+        --noofcardstoshow:3;
+      }
+      .ourteamwrap{
+        margin: 30px;
+      }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px){
+    :root {
+        --noofcardstoshow:2;
+      }
+    .arisebuild{
+        left: calc(50vw - 150px);
+
+    }
+    .contactus{
+        top: calc(80vh + 21px + 35px);
+        left: calc(50vw - 150px);
+    }
+    #socials{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    nav>ul{
+        display: none;
+    }
+    #hamburgermenu{
+        display: block;
+    }
+
+    .logo{
+    margin-left: 2px;
+    /* z-index: 1; */
+
+    }
+    #socials{
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 950px){
+    .ourproductsbackground img{
+        height: 670px;
+
+      }
+      .ourteam{
+        height: 670px;
+      }
+
+}
+
+@media screen and (max-width: 950px){
+    .ourteamwrap{
+        position: relative;
+    }
+
+    :root {
+        --noofcardstoshow:1;
+      }
+    .contactus> button{
+        padding: 10px 50px;;
+    }
+
+}

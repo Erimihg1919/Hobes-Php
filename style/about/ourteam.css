@@ -1,0 +1,75 @@
+.ourteamswrap{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(180deg, rgb(210, 98, 18) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+    flex-direction: column;
+    text-align: center;
+    >span{
+        margin-top: 5px;
+        color: rgba(255, 255, 255, 0.925);
+        padding: 10px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    >p{
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.671);
+        align-self: stretch;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 5px;
+    }
+}
+.ourteams{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ourteams .card{
+    margin-top: 15px;
+    padding: 20px;
+    position: relative;
+    height: 320px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+
+}
+
+.ourteams.card img{
+    width: 270px;
+    height: 270px;
+}
+
+.card .emptext{
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 200px;
+    left: 45px;
+    background-color: white;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.emptext img{
+    object-fit: cover;
+    width: 40px;
+    height: 5px;
+    /* overflow: hidden; */
+}
+.emptext span{
+    font-size: 16px;
+    font-weight: 700;
+
+    
+}
+.emptext p{
+ font-size: 14px;       
+}

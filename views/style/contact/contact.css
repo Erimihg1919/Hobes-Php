@@ -1,0 +1,73 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.map{
+    z-index: 1;
+    width: 70%;
+    margin: auto;
+    height: 50vh;
+    /* border: 2px solid red; */
+}
+
+.mapdown{
+    width: 70%;
+    margin: auto;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-shadow: 0px 4px 8px 0px #0000000A;
+    box-shadow: 0px 8px 16px 0px #00000014;
+    gap:20px;
+
+}
+
+.contactForm .titleContact span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.firstrow{
+    gap: 2%;
+}
+.contactForm form input{
+    font-size: 16px;
+    padding: 5px;
+    height: 30px;
+    background-color: #bfc1c481;
+    border: none;
+}
+
+
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstrow input{
+    width: 40%;
+
+}
+
+.secondrow input{
+    width: calc(80% + 30px);
+}
+
+.thirdrow textarea{
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    width: calc(80% + 30px);
+    height: 150px;
+    background-color: #bfc1c481;
+
+}
+
+
+
+

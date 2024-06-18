@@ -1,0 +1,87 @@
+
+
+/* for first page */
+:root {
+    --noofcardstoshow:3;
+  }
+
+.homepage{
+    height: 847px;
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.pic1{
+    position: absolute;
+    /* width: 200px; */
+    /* height: 200px; */
+    top: 115px;
+    left: 22.5vw;
+    z-index: 1;
+    >img{
+        width: 55vw;
+        height: 80vh;
+    }
+}
+.rectangles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position    : absolute;
+    top: 100px;
+    left: -23px;
+}
+
+.main .socials {
+    position: absolute;
+    top: 350px;
+    left: 10vh;
+    ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}}
+
+.arisebuild{
+    position: absolute;
+    top: 40vh;
+    right:73vw ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    span{
+        font-size: 4rem;
+        font-weight: 800;
+        min-width: 220px;
+    }
+    a{
+        width: 150px;    }
+        z-index: 2;
+}
+
+.contactus{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: calc(80vh + 53px);
+    right:73vw ;
+    width: 300px;
+    z-index: 2;
+
+    /* border: 2px solid red; */
+    button{
+        color: white;
+        padding: 10px 80px;
+        background: linear-gradient(180deg, rgba(210, 99, 18, 0.90) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+        border: none;
+        outline: none;
+    }
+    span{
+        padding: 10px;
+    }
+}
+
+/* for whyus page */

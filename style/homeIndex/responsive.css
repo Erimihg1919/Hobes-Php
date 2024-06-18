@@ -1,0 +1,62 @@
+
+
+
+@media screen and (min-width: 1301px){
+    :root {
+        --noofcardstoshow:3;
+      }
+      .ourteamwrap,.scrollcontainerwrap{
+        margin: 30px;
+      }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px){
+    :root {
+        --noofcardstoshow:2;
+      }
+    .arisebuild{
+        left: calc(50vw - 150px);
+
+    }
+    .contactus{
+        top: calc(80vh + 21px + 35px);
+        left: calc(50vw - 150px);
+    }
+    #socials{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    #socials{
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 950px){
+    .ourproductsbackground img{
+        height: 670px;
+      }
+      .ourteam{
+        height: 670px;
+      }
+      .scrollcontainer{
+        height: 650px;
+      }
+
+}
+
+@media screen and (max-width: 950px){
+    .ourteamwrap, .scrollcontainerwrap{
+        position: relative;
+    }
+
+    :root {
+        --noofcardstoshow:1;
+      }
+}

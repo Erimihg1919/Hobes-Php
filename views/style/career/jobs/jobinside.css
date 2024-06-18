@@ -1,0 +1,242 @@
+.navigator{
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, rgba(210, 99, 18, 0.90) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+    height: 30vh;
+    width: calc(100vw);
+    display: flex;    
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.navigator a,.navigator span span{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: 400;
+    transition: all .2s ease;
+
+}
+
+.navigator a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+
+nav[class="front"]{
+    height: 30vh;
+    background: none;
+}
+
+.navigator h1{
+    color: white;
+    font-size: 40px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    /* border: 2px solid red; */
+}
+
+.right{
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobBody{
+    /* position: absolute; */
+    top: 0;
+    display: flex;
+    gap: 10%;
+    padding: 5px;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    /* margin-left: 5%; */
+    max-width: 1350px;
+    /* border: 2px solid red; */
+    margin-top: calc(20vh);
+    
+}
+
+.left>h1{
+    font-size: 32px;
+    color: #D26312;
+}
+.jobBody .jobBodysocials ul{
+    display: flex;
+    gap: 10px;
+    li>a>img{
+        height: 30px;
+    }
+}
+
+.descListings{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descListings .heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.descListings ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.descListings ul li{
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+    /* justify-content: center; */
+}
+
+.descListings ul li img{
+    height: 30px;
+}
+.Applyjob h2{
+    color:#D26312
+    
+}
+
+/* for form */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+form input, form select{
+    padding-left: 15px;
+    font-size: 16px;
+    color: black;
+    height: 40px;
+    width: calc(100% - 15px);
+    border: 1px solid var(--cool-gray-400, #CED4DA);
+}
+form select{
+    width: 100%;
+    cursor: pointer;
+
+}
+
+form option{
+    width: 70px;
+}
+
+form label{
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+
+button[type="submit"]{
+    font-size: 16px;
+    width: 120px;
+    padding: 10px 20px;
+    background: linear-gradient(180deg, rgba(210, 99, 18, 0.90) 13.56%, rgba(210, 99, 18, 0.87) 109.32%, rgba(210, 99, 18, 0.45) 117.41%, rgba(210, 99, 18, 0.31) 142.9%, rgba(210, 99, 18, 0.33) 161.47%);
+    border: none;
+    color: White;
+    cursor: pointer;
+    
+}
+
+span.positionButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.right{
+    align-items: center ;
+    display: flex;
+}
+.right .applycard,.ContactUsCard{
+    border: 2px solid red;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #DEE2E6    ;
+
+}
+
+.applycard .reqno,.post,.validity,.mail{
+    display: flex;
+    gap: 15px;
+}
+
+.applycard .reqno img,.ContactUsCard img{
+    width: 20px;
+    object-fit: contain;
+}
+
+button[class='Applyjob'],button[class='ContactUs']{
+    border: none;    
+    height: 30px;
+    background-color: #D26312;
+    color: white;
+
+}
+button[class='Applyjob']:hover,button[class='ContactUs']:hover{
+    background-color: #d26212d2;
+    cursor: pointer;
+}
+
+
+.contactText{
+    color: #D26312;
+    font-size: 16px;
+    font-weight:700;
+    text-align: center;
+}
+
+
+
+
+/* just aded to fix moile view in pc 🤣 */
+.right{
+    margin-bottom: 70px;
+}
+
+
+
+@media screen and (max-width: 945px){
+
+    .jobBody{
+     flex-direction: column;
+     gap: 50px;
+    }
+    .left,.right{
+        width: 100%;
+    }
+
+    
+    
+}
